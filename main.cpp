@@ -7,40 +7,37 @@ void getch(){
     system("clear");
 }
 
-void get_data(){
+void get_data(int* ptr_kolichestvo, int* ptr_rasryadnosty, int* ptr_chislznach) {//указатели
     system("clear");
     cout << "\t\t\t\tВведите параметры:" << endl;
 
     cout << "Кол-во чисел: ";
-    int N;
-    cin >> N;
-    if(cin.fail() || (N < 0) || (N > 10000) ){
+    cin >> *ptr_kolichestvo;
+    if(cin.fail() || (*ptr_kolichestvo < 0) || (*ptr_kolichestvo > 10000) ){
         cin.clear();
         cin.ignore(32767, '\n');
-        get_data();
+        get_data(ptr_kolichestvo,ptr_rasryadnosty,ptr_chislznach);
     }
 
     cout << "Разрядность чисел (max.48): ";
-    int R;
-    cin >> R;
-    if(cin.fail() || (R < 0) || (R > 48)){
+    cin >> *ptr_rasryadnosty;
+    if(cin.fail() || (*ptr_rasryadnosty < 0) || (*ptr_rasryadnosty > 48)){
         cin.clear();
         cin.ignore(32767, '\n');
-        get_data();
+        get_data(ptr_kolichestvo,ptr_rasryadnosty,ptr_chislznach);
     }
 
     cout << "Выберите конечное преобразование числа (16-ая, 8-ая, 2-ая): ";
-    int chislo;
-    cin >> chislo;
-    if(cin.fail() || (chislo != 16) && (chislo != 8) && ((chislo != 2))){
+    cin >> *ptr_chislznach;
+    if(cin.fail() || (*ptr_chislznach != 16) && (*ptr_chislznach != 8) && ((*ptr_chislznach != 2))){
         cin.clear();
         cin.ignore(32767, '\n');
-        get_data();
+        get_data(ptr_kolichestvo,ptr_rasryadnosty,ptr_chislznach);
     }
 
     getch();
 }
-void menu(){
+void menu(int* ptr1_n,int* ptr1_r,int* ptr1_chislo){
     system("clear");
     cout << "\t\t\tВыберите один из предложенных пунктов:" << endl;
     cout << "1. Генерация псевдослучайной последовательности" << endl;
@@ -48,25 +45,25 @@ void menu(){
     cout << "Введите свой выбор: ";
     int variant;
     cin >> variant;
-    if(cin.fail()){//ли введены
+    if(cin.fail()){//еcли введены не те данные
         cin.clear();
         cin.ignore(32767, '\n');
-        menu();
+        menu(ptr1_n,ptr1_r,ptr1_chislo);
     }
     switch(variant){
         case 1:
-            get_data();
+            get_data(ptr1_n,ptr1_r,ptr1_chislo);
             break;
         case 2:
             //spravka();
             break;
         default:
-            menu();
+            menu(ptr1_n,ptr1_r,ptr1_chislo);
             break;
     }
 
 }
-void mainmenu(){
+void mainmenu(int* ptr_n,int* ptr_r,int* ptr_chislo){
     setlocale(LC_ALL,"ru_Rus");//использование русского алфавита
     cout << "\n\n\n\n\n\n\n\n\n" << endl;
     cout << "\t\t\t\tКурсовая работа" << endl;
@@ -75,10 +72,15 @@ void mainmenu(){
     cout << "\t\t\t\t\tстудент 20ПИ1" << endl;
     cout << "\t\t\t\t\tМуромская Е.А.\n\n\n\n\n\n" << endl;
     getch();
-    menu();
+    menu(ptr_n,ptr_r,ptr_chislo);
 }
 
 int main() {
-    mainmenu();
+    int n;
+    int r;
+    int chislo;
+
+    mainmenu(&n,&r,&chislo);//передача адреса переменных
+
     return 0;
 }
