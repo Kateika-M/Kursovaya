@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Kursach_version_2_0.dir/main.cpp.o CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o -o Kursach_version_2_0 

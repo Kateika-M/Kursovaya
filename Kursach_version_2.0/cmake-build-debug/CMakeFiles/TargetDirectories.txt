@@ -1,0 +1,3 @@
+/home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug/CMakeFiles/Kursach_version_2_0.dir

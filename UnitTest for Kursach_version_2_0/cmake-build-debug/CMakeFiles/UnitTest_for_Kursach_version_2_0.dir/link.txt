@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/UnitTest_for_Kursach_version_2_0.dir/main.cpp.o -o UnitTest_for_Kursach_version_2_0 
