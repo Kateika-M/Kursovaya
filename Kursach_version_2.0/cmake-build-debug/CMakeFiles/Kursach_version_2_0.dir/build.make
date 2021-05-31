@@ -62,10 +62,10 @@ RM = /snap/clion/151/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/katya/CLionProjects/Kursach_version_2.0
+CMAKE_SOURCE_DIR = /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug
+CMAKE_BINARY_DIR = /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Kursach_version_2_0.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/Kursach_version_2_0.dir/flags.make
 
 CMakeFiles/Kursach_version_2_0.dir/main.cpp.o: CMakeFiles/Kursach_version_2_0.dir/flags.make
 CMakeFiles/Kursach_version_2_0.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kursach_version_2_0.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kursach_version_2_0.dir/main.cpp.o -c /home/katya/CLionProjects/Kursach_version_2.0/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kursach_version_2_0.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kursach_version_2_0.dir/main.cpp.o -c /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/main.cpp
 
 CMakeFiles/Kursach_version_2_0.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kursach_version_2_0.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katya/CLionProjects/Kursach_version_2.0/main.cpp > CMakeFiles/Kursach_version_2_0.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/main.cpp > CMakeFiles/Kursach_version_2_0.dir/main.cpp.i
 
 CMakeFiles/Kursach_version_2_0.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kursach_version_2_0.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katya/CLionProjects/Kursach_version_2.0/main.cpp -o CMakeFiles/Kursach_version_2_0.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/main.cpp -o CMakeFiles/Kursach_version_2_0.dir/main.cpp.s
 
 CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o: CMakeFiles/Kursach_version_2_0.dir/flags.make
 CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o: ../PseudorandomGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o -c /home/katya/CLionProjects/Kursach_version_2.0/PseudorandomGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o -c /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/PseudorandomGenerator.cpp
 
 CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katya/CLionProjects/Kursach_version_2.0/PseudorandomGenerator.cpp > CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/PseudorandomGenerator.cpp > CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.i
 
 CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katya/CLionProjects/Kursach_version_2.0/PseudorandomGenerator.cpp -o CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/PseudorandomGenerator.cpp -o CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.s
 
 # Object files for target Kursach_version_2_0
 Kursach_version_2_0_OBJECTS = \
@@ -114,7 +114,7 @@ Kursach_version_2_0: CMakeFiles/Kursach_version_2_0.dir/main.cpp.o
 Kursach_version_2_0: CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o
 Kursach_version_2_0: CMakeFiles/Kursach_version_2_0.dir/build.make
 Kursach_version_2_0: CMakeFiles/Kursach_version_2_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Kursach_version_2_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Kursach_version_2_0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Kursach_version_2_0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/Kursach_version_2_0.dir/clean:
 .PHONY : CMakeFiles/Kursach_version_2_0.dir/clean
 
 CMakeFiles/Kursach_version_2_0.dir/depend:
-	cd /home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/katya/CLionProjects/Kursach_version_2.0 /home/katya/CLionProjects/Kursach_version_2.0 /home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug /home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug /home/katya/CLionProjects/Kursach_version_2.0/cmake-build-debug/CMakeFiles/Kursach_version_2_0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0 /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0 /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug /home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/CMakeFiles/Kursach_version_2_0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Kursach_version_2_0.dir/depend
 

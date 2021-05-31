@@ -33,11 +33,12 @@ int main(){
         return 0;
     }
 
-    cout << "Введите количество чисел." << endl;
-    cin >> number;//количество генерируемых чисел
+    cout << "Введите количество генерируемых чисел.\n"
+            "Если будет введен ноль, то последовательность автоматически становится равной 1." << endl;
+    cin >> number;
 
-    if(number <= 0)
-        throw PseudorandomGeneratorError("Ошибка! Невозможное количество выходной последовательности!");
+    if(number = 0)
+        number = 1;
 
     for (int kolvo = 0;kolvo < number; kolvo++) {
 
@@ -48,9 +49,6 @@ int main(){
         cout << "Введите разрядность числа.\n"
                 "Разрядность не может превышать 48 бит."<< endl;
         cin >> razryadnosty;//разрядность числа
-
-        if ((razryadnosty <= 0) && (razryadnosty > 48))
-            throw PseudorandomGeneratorError("Ошибка! Невозможная разрядность выходной последовательности!");
 
         num = object.gen(a,razryadnosty);
         for (int i = 0; i < num.size(); i++)
