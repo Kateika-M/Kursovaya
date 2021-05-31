@@ -11,10 +11,12 @@ using namespace std;
 class PseudorandomGenerator{
 private:
     vector<int> reg;
+    int razryad;
 public:
     PseudorandomGenerator();
     void setReg(vector<int> reg);
-    vector<int> gen(int N, int razryad);
+    void setRas(int razryad);
+    vector<int> gen(int N);
 };
 
 class PseudorandomGeneratorError: public std::invalid_argument{

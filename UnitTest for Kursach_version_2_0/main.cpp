@@ -41,6 +41,12 @@ SUITE(KeyTest)
                 CHECK_THROW(object->setReg(reg6), PseudorandomGeneratorError);
     }
 
+    vector<int> reg 7 = {1,0,0,1,0,0,1,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1,0,1,1,0,1,1,0,1,1,1,0,0,1,0,1,0,0,1,0,1}, int razryadnosty 1 = 12;
+    TEST_FIXTURE(PseudorandomGenerator_fixture, CaseIsShort){
+                object->setReg(reg7);
+                object->setRas(1); 
+                CHECK(true);
+    }
 }
 
 
