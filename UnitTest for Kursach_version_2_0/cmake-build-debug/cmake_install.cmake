@@ -1,4 +1,4 @@
-# Install script for directory: /home/katya/CLionProjects/UnitTest for Kursach_version_2_0
+# Install script for directory: /home/katya/Documents/GitHub/Kursovaya/UnitTest for Kursach_version_2_0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/katya/CLionProjects/UnitTest for Kursach_version_2_0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/katya/Documents/GitHub/Kursovaya/UnitTest for Kursach_version_2_0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

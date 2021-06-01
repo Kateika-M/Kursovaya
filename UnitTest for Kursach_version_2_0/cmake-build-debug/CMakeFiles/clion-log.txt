@@ -1,4 +1,4 @@
-/snap/clion/151/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/katya/CLionProjects/UnitTest for Kursach_version_2_0"
+/snap/clion/152/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/katya/Documents/GitHub/Kursovaya/UnitTest for Kursach_version_2_0"
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/katya/CLionProjects/UnitTest for Kursach_version_2_0/cmake-build-debug
+-- Build files have been written to: /home/katya/Documents/GitHub/Kursovaya/UnitTest for Kursach_version_2_0/cmake-build-debug
