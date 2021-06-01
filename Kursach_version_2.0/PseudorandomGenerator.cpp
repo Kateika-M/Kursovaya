@@ -26,7 +26,7 @@ void PseudorandomGenerator::setReg(vector<int> reg)
 }
 
 // отводная последовательность (48,7,5,4,2,1,0)
-vector<int> PseudorandomGenerator::gen(int N, int razryad = 48){
+vector<int> PseudorandomGenerator::gen(int N, int razryad){
 
     vector<int> num;
     int new_num;
