@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug"/>
+				<Option working_dir="/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug"/>
+				<Option working_dir="/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug"/>
+				<Option working_dir="/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Kursach_version_2_0">
-				<Option output="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Kursach_version_2_0" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug"/>
+				<Option output="/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Kursach_version_2_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Kursach_version_2_0"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Kursach_version_2_0"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Kursach_version_2_0/fast">
-				<Option output="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Kursach_version_2_0" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug"/>
+				<Option output="/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Kursach_version_2_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,23 +75,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Kursach_version_2_0/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Kursach_version_2_0/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/PseudorandomGenerator.cpp">
+		<Unit filename="/home/katya/CLionProjects/Kursach_version_2.0(1)/PseudorandomGenerator.cpp">
 			<Option target="Kursach_version_2_0"/>
 		</Unit>
-		<Unit filename="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/PseudorandomGenerator.h">
+		<Unit filename="/home/katya/CLionProjects/Kursach_version_2.0(1)/PseudorandomGenerator.h">
 			<Option target="Kursach_version_2_0"/>
 		</Unit>
-		<Unit filename="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/main.cpp">
+		<Unit filename="/home/katya/CLionProjects/Kursach_version_2.0(1)/main.cpp">
 			<Option target="Kursach_version_2_0"/>
 		</Unit>
-		<Unit filename="/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/CMakeLists.txt">
+		<Unit filename="/home/katya/CLionProjects/Kursach_version_2.0(1)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

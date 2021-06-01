@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/PseudorandomGenerator.cpp" "/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o"
-  "/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/main.cpp" "/home/katya/Documents/GitHub/Kursovaya/Kursach_version_2.0/cmake-build-debug/CMakeFiles/Kursach_version_2_0.dir/main.cpp.o"
+  "/home/katya/CLionProjects/Kursach_version_2.0(1)/PseudorandomGenerator.cpp" "/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/CMakeFiles/Kursach_version_2_0.dir/PseudorandomGenerator.cpp.o"
+  "/home/katya/CLionProjects/Kursach_version_2.0(1)/main.cpp" "/home/katya/CLionProjects/Kursach_version_2.0(1)/cmake-build-debug/CMakeFiles/Kursach_version_2_0.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

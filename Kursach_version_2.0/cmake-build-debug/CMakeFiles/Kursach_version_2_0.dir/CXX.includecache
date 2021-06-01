@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/katya/CLionProjects/Kursach_version_2.0(1)/PseudorandomGenerator.h
+iostream
+-
+vector
+-
+cmath
+-
+
+/home/katya/CLionProjects/Kursach_version_2.0(1)/main.cpp
+PseudorandomGenerator.h
+/home/katya/CLionProjects/Kursach_version_2.0(1)/PseudorandomGenerator.h
+

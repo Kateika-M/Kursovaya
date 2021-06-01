@@ -34,7 +34,7 @@ vector<int> PseudorandomGenerator::gen(int N, int razryad = 48){
     if(N <= 0)
         throw PseudorandomGeneratorError("Ошибка! Невозможная длина выходной последовательности!");
 
-    if ((razryad <= 0) && (razryad > 48))
+    if ((razryad <= 0) || (razryad > 48))
         throw PseudorandomGeneratorError("Ошибка! Невозможная разрядность!");
 
     for(int i = 0; i < N; i++) {
