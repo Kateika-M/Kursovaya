@@ -36,7 +36,7 @@ void PseudorandomGenerator::setReg(vector<int> reg)
 @throw PseudorandomGeneratorError, если произошла ошибка
 @return Псевдослучайная последовательность в виде вектора
 
-vector<int> PseudorandomGenerator::gen(int N, int razryad = 48){
+vector<int> PseudorandomGenerator::gen(int N, int razryad){
 
     vector<int> num;
     int new_num;
