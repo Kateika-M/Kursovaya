@@ -1,11 +1,14 @@
+/**
+* @file main.cpp
+*/
 #include "PseudorandomGenerator.h"
 using namespace std;
 
 int main(){
-    vector<int> num;
+    vector<uint64_t> num;
     int a;
-    int number;//количество генерируемых чисел
-    int razryadnosty;//разрядность числа
+    uint64_t number;
+    uint64_t bitrate;
     PseudorandomGenerator object;
 
     cout << "Приветствую вас, пользователь.Сообщаю вам, что  длина регистра 48 бит.\n"
@@ -40,17 +43,15 @@ int main(){
     if(number <= 0)
         number = 1;
 
-    for (int kolvo = 0;kolvo < number; kolvo++) {
+    cout << "Введите разрядность числа.\n"
+            "Разрядность не может превышать 48 бит."<< endl;
+    cin >> bitrate;
 
-        cout << "Введите длину псевдослучайной последовательности.\n"
-                "Длина последовательности не может быть меньше 1." << endl;
-        cin >> a;
+    uint64_t count;
 
-        cout << "Введите разрядность числа.\n"
-                "Разрядность не может превышать 48 бит."<< endl;
-        cin >> razryadnosty;//разрядность числа
+    for (count = 0; count < number; count++) {
 
-        num = object.gen(a,razryadnosty);
+        num = object.gen(bitrate);
         for (int i = 0; i < num.size(); i++)
             cout << num[i];
         cout << endl;
